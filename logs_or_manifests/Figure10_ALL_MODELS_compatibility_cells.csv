@@ -1,0 +1,81 @@
+feature_set,train_cohort,test_cohort,cell_type,status,reason,train_node_dim,test_node_dim,train_global_dim,test_global_dim,train_edge_dim,test_edge_dim
+full,ADNI,ADNI,diagonal_oof,ok,,,,,,,
+full,ADNI,ADRC,external,ok,,3.0,3.0,17.0,17.0,1.0,1.0
+full,ADNI,HABS,external,ok,,3.0,3.0,17.0,17.0,1.0,1.0
+full,ADNI,AD_DECODE,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,17.0,20.0,1.0,1.0
+full,ADRC,ADNI,external,ok,,3.0,3.0,17.0,17.0,1.0,1.0
+full,ADRC,ADRC,diagonal_oof,ok,,,,,,,
+full,ADRC,HABS,external,ok,,3.0,3.0,17.0,17.0,1.0,1.0
+full,ADRC,AD_DECODE,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,17.0,20.0,1.0,1.0
+full,HABS,ADNI,external,ok,,3.0,3.0,17.0,17.0,1.0,1.0
+full,HABS,ADRC,external,ok,,3.0,3.0,17.0,17.0,1.0,1.0
+full,HABS,HABS,diagonal_oof,ok,,,,,,,
+full,HABS,AD_DECODE,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,17.0,20.0,1.0,1.0
+full,AD_DECODE,ADNI,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,20.0,17.0,1.0,1.0
+full,AD_DECODE,ADRC,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,20.0,17.0,1.0,1.0
+full,AD_DECODE,HABS,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,20.0,17.0,1.0,1.0
+full,AD_DECODE,AD_DECODE,diagonal_oof,ok,,,,,,,
+full_no_cardiovascular,ADNI,ADNI,diagonal_oof,ok,,,,,,,
+full_no_cardiovascular,ADNI,ADRC,external,ok,,3.0,3.0,14.0,14.0,1.0,1.0
+full_no_cardiovascular,ADNI,HABS,external,ok,,3.0,3.0,14.0,14.0,1.0,1.0
+full_no_cardiovascular,ADNI,AD_DECODE,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,14.0,17.0,1.0,1.0
+full_no_cardiovascular,ADRC,ADNI,external,ok,,3.0,3.0,14.0,14.0,1.0,1.0
+full_no_cardiovascular,ADRC,ADRC,diagonal_oof,ok,,,,,,,
+full_no_cardiovascular,ADRC,HABS,external,ok,,3.0,3.0,14.0,14.0,1.0,1.0
+full_no_cardiovascular,ADRC,AD_DECODE,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,14.0,17.0,1.0,1.0
+full_no_cardiovascular,HABS,ADNI,external,ok,,3.0,3.0,14.0,14.0,1.0,1.0
+full_no_cardiovascular,HABS,ADRC,external,ok,,3.0,3.0,14.0,14.0,1.0,1.0
+full_no_cardiovascular,HABS,HABS,diagonal_oof,ok,,,,,,,
+full_no_cardiovascular,HABS,AD_DECODE,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,14.0,17.0,1.0,1.0
+full_no_cardiovascular,AD_DECODE,ADNI,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,17.0,14.0,1.0,1.0
+full_no_cardiovascular,AD_DECODE,ADRC,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,17.0,14.0,1.0,1.0
+full_no_cardiovascular,AD_DECODE,HABS,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,17.0,14.0,1.0,1.0
+full_no_cardiovascular,AD_DECODE,AD_DECODE,diagonal_oof,ok,,,,,,,
+imaging_biomarkers,ADNI,ADNI,diagonal_oof,ok,,,,,,,
+imaging_biomarkers,ADNI,ADRC,external,ok,,3.0,3.0,13.0,13.0,1.0,1.0
+imaging_biomarkers,ADNI,HABS,external,ok,,3.0,3.0,13.0,13.0,1.0,1.0
+imaging_biomarkers,ADNI,AD_DECODE,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,13.0,16.0,1.0,1.0
+imaging_biomarkers,ADRC,ADNI,external,ok,,3.0,3.0,13.0,13.0,1.0,1.0
+imaging_biomarkers,ADRC,ADRC,diagonal_oof,ok,,,,,,,
+imaging_biomarkers,ADRC,HABS,external,ok,,3.0,3.0,13.0,13.0,1.0,1.0
+imaging_biomarkers,ADRC,AD_DECODE,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,13.0,16.0,1.0,1.0
+imaging_biomarkers,HABS,ADNI,external,ok,,3.0,3.0,13.0,13.0,1.0,1.0
+imaging_biomarkers,HABS,ADRC,external,ok,,3.0,3.0,13.0,13.0,1.0,1.0
+imaging_biomarkers,HABS,HABS,diagonal_oof,ok,,,,,,,
+imaging_biomarkers,HABS,AD_DECODE,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,13.0,16.0,1.0,1.0
+imaging_biomarkers,AD_DECODE,ADNI,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,16.0,13.0,1.0,1.0
+imaging_biomarkers,AD_DECODE,ADRC,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,16.0,13.0,1.0,1.0
+imaging_biomarkers,AD_DECODE,HABS,external,incompatible_dimensions,Input dimensions do not match,3.0,3.0,16.0,13.0,1.0,1.0
+imaging_biomarkers,AD_DECODE,AD_DECODE,diagonal_oof,ok,,,,,,,
+imaging_demographics,ADNI,ADNI,diagonal_oof,ok,,,,,,,
+imaging_demographics,ADNI,ADRC,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,ADNI,HABS,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,ADNI,AD_DECODE,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,ADRC,ADNI,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,ADRC,ADRC,diagonal_oof,ok,,,,,,,
+imaging_demographics,ADRC,HABS,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,ADRC,AD_DECODE,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,HABS,ADNI,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,HABS,ADRC,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,HABS,HABS,diagonal_oof,ok,,,,,,,
+imaging_demographics,HABS,AD_DECODE,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,AD_DECODE,ADNI,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,AD_DECODE,ADRC,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,AD_DECODE,HABS,external,ok,,3.0,3.0,6.0,6.0,1.0,1.0
+imaging_demographics,AD_DECODE,AD_DECODE,diagonal_oof,ok,,,,,,,
+imaging_only,ADNI,ADNI,diagonal_oof,ok,,,,,,,
+imaging_only,ADNI,ADRC,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,ADNI,HABS,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,ADNI,AD_DECODE,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,ADRC,ADNI,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,ADRC,ADRC,diagonal_oof,ok,,,,,,,
+imaging_only,ADRC,HABS,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,ADRC,AD_DECODE,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,HABS,ADNI,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,HABS,ADRC,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,HABS,HABS,diagonal_oof,ok,,,,,,,
+imaging_only,HABS,AD_DECODE,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,AD_DECODE,ADNI,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,AD_DECODE,ADRC,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,AD_DECODE,HABS,external,ok,,3.0,3.0,4.0,4.0,1.0,1.0
+imaging_only,AD_DECODE,AD_DECODE,diagonal_oof,ok,,,,,,,

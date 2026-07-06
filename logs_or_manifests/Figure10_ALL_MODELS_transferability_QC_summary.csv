@@ -1,0 +1,6 @@
+feature_set,has_raw_metrics,has_compatibility,has_predictions,n_cells_raw,n_external,external_MAE_raw_median,external_r_raw_median,external_R2_raw_median
+full,True,True,True,10,6,15.030797403776354,0.2894272831016015,-3.09644707627697
+full_no_cardiovascular,True,True,True,10,6,12.975087988189467,0.2764896069750241,-0.9074367357955844
+imaging_biomarkers,True,True,True,10,6,12.785372966728236,0.2357533306419733,-1.5150325278843733
+imaging_demographics,True,True,True,16,12,17.777985698128155,0.3403651938464626,-2.536080449883354
+imaging_only,True,True,True,16,12,17.393819027663042,0.17122282849746934,-6.781267456492621
